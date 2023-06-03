@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../img/birthday-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.time-left{
+    font-size: 20px;
+    margin-top: 5px;
+    color: #fff;
+}
+span{
+    margin-left: 10px;
+}
+.season-imgs{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 250px;
+    height: 290px;
+    position: absolute;
+    left: 50%;
+    top: 205px;
+    margin-left: -125px;
+    display: none;
+    border: 5px solid #fff;    
+}
+.visible-img{
+    display: block;
+}
+form{
+    border: 1px solid black;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 12px 0px;
+    margin-top: 10px;
+}
+label{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+input{
+    padding: 8px 12px;
+    margin: 2px 0 12px;
+}
+button{
+    padding: 10px 20px;
+    margin: 15px 0;
+    background: lightblue;
+    outline: none;
+    border: 1px solid lightblue;
+    cursor: pointer;
+}
+#date1{
+    visibility: hidden;
+    position: absolute;
+}
